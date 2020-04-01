@@ -65,7 +65,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/v2/api-docs/**").permitAll()
                 .antMatchers("/admin/login","/admin/register") //注册登录放行
                 .permitAll()
-                .antMatchers(HttpMethod.OPTIONS)   //跨域请求会先进行一次options请求
+                .antMatchers(HttpMethod.OPTIONS)   // 跨域请求会先进行一次options请求
                 .permitAll()
                 .antMatchers("/**")
                 .permitAll()
@@ -97,6 +97,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
+    @Override
     @Bean
     public UserDetailsService userDetailsService() {
         //获取用户登录信息
