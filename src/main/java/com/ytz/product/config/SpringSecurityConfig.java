@@ -1,12 +1,12 @@
 
 package com.ytz.product.config;
 
-import com.ytz.product.component.JwtAuthenticationTokenFilter;
-import com.ytz.product.component.RestAuthenticationEntryPoint;
-import com.ytz.product.component.RestfulAccessDeniedHandler;
-import com.ytz.product.dto.AdminUserDetails;
-import com.ytz.mall.mbg.model.UmsAdmin;
-import com.ytz.mall.mbg.model.UmsPermission;
+import com.ytz.product.mbg.model.UmsAdmin;
+import com.ytz.product.mbg.model.UmsPermission;
+import com.ytz.product.security.component.JwtAuthenticationTokenFilter;
+import com.ytz.product.security.component.RestAuthenticationEntryPoint;
+import com.ytz.product.security.component.RestfulAccessDeniedHandler;
+import com.ytz.product.security.dto.AdminUserDetails;
 import com.ytz.product.service.UmsAdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

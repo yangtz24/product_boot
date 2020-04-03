@@ -1,4 +1,4 @@
-package com.ytz.product.mbg.model;
+package com.ytz.mall.mbg.model;
 
 import java.io.Serializable;
 

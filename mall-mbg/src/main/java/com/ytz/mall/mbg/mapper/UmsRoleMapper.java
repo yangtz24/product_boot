@@ -1,8 +1,9 @@
-package com.ytz.product.mbg.mapper;
+package com.ytz.mall.mbg.mapper;
 
-import com.ytz.product.mbg.model.UmsRole;
-import com.ytz.product.mbg.model.UmsRoleExample;
+import com.ytz.mall.mbg.model.UmsRole;
+import com.ytz.mall.mbg.model.UmsRoleExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UmsRoleMapper {

@@ -1,8 +1,10 @@
-package com.ytz.product.mbg.mapper;
+package com.ytz.mall.mbg.mapper;
 
-import com.ytz.product.mbg.model.UmsAdmin;
-import com.ytz.product.mbg.model.UmsAdminExample;
+import com.ytz.mall.mbg.model.UmsAdmin;
+import com.ytz.mall.mbg.model.UmsAdminExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UmsAdminMapper {

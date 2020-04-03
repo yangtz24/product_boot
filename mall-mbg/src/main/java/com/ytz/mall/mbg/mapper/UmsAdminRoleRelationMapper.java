@@ -1,8 +1,9 @@
-package com.ytz.product.mbg.mapper;
+package com.ytz.mall.mbg.mapper;
 
-import com.ytz.product.mbg.model.UmsAdminRoleRelation;
-import com.ytz.product.mbg.model.UmsAdminRoleRelationExample;
+import com.ytz.mall.mbg.model.UmsAdminRoleRelation;
+import com.ytz.mall.mbg.model.UmsAdminRoleRelationExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UmsAdminRoleRelationMapper {

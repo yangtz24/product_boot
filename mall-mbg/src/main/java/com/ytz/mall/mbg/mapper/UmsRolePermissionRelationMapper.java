@@ -1,8 +1,10 @@
-package com.ytz.product.mbg.mapper;
+package com.ytz.mall.mbg.mapper;
 
-import com.ytz.product.mbg.model.UmsRolePermissionRelation;
-import com.ytz.product.mbg.model.UmsRolePermissionRelationExample;
+import com.ytz.mall.mbg.model.UmsRolePermissionRelation;
+import com.ytz.mall.mbg.model.UmsRolePermissionRelationExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UmsRolePermissionRelationMapper {

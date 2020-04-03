@@ -1,7 +1,7 @@
-package com.ytz.product.mbg.mapper;
+package com.ytz.mall.mbg.mapper;
 
-import com.ytz.product.mbg.model.UmsAdminPermissionRelation;
-import com.ytz.product.mbg.model.UmsAdminPermissionRelationExample;
+import com.ytz.mall.mbg.model.UmsAdminPermissionRelation;
+import com.ytz.mall.mbg.model.UmsAdminPermissionRelationExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
