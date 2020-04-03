@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-    <properties resource="generator.properties"/>
+    <properties resource="/generator.properties"/>
     <context id="MySqlContext" targetRuntime="MyBatis3" defaultModelType="flat">
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
@@ -16,7 +16,7 @@
         <!--生成mapper.xml时覆盖原文件-->
         <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin" />
         <!--可以自定义生成model的代码注释-->
-        <commentGenerator type="com.ytz.product.mbg.CommentGenerator">
+        <commentGenerator type="com.ytz.mall.mbg.CommentGenerator">
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
             <property name="suppressAllComments" value="true"/>
             <property name="suppressDate" value="true"/>
@@ -31,25 +31,28 @@
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
         <!--指定生成model的路径-->
-        <javaModelGenerator targetPackage="com.ytz.product.mbg.model" targetProject="F:\mall_boot\src\main\java"/>
+        <javaModelGenerator targetPackage="com.ytz.mall.mbg.model" targetProject="F:\mall_boot\mall-mbg\src\main\java"/>
         <!--指定生成mapper.xml的路径-->
-        <sqlMapGenerator targetPackage="com.ytz.product.mbg.mapper" targetProject="F:\mall_boot\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.ytz.mall.mbg.mapper" targetProject="F:\mall_boot\mall-mbg\src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ytz.product.mbg.mapper"
-                             targetProject="F:\mall_boot\src\main\java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ytz.mall.mbg.mapper"
+                             targetProject="F:\mall_boot\mall-mbg\src\main\java"/>
         <!--生成全部表tableName设为%-->
-        <table tableName="pms_brand">
+        <table tableName="%">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <!--后台用户表-->
+       <!-- <table tableName="pms_brand">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        &lt;!&ndash;后台用户表&ndash;&gt;
         <table tableName="ums_admin">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <!--后台用户角色表-->
+        &lt;!&ndash;后台用户角色表&ndash;&gt;
         <table tableName="ums_role">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <!--后台用户权限表-->
+        &lt;!&ndash;后台用户权限表&ndash;&gt;
         <table tableName="ums_permission">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
@@ -61,6 +64,6 @@
         </table>
         <table tableName="ums_admin_permission_relation">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
+        </table>-->
     </context>
 </generatorConfiguration>

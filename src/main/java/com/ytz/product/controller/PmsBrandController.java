@@ -12,7 +12,7 @@ package com.ytz.product.controller;
 
 import com.ytz.mall.common.api.CommonPage;
 import com.ytz.mall.common.api.CommonResult;
-import com.ytz.product.mbg.model.PmsBrand;
+import com.ytz.mall.mbg.model.PmsBrand;
 import com.ytz.product.service.PmsBrandService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

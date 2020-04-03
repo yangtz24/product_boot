@@ -10,7 +10,7 @@
  */
 package com.ytz.product.service;
 
-import com.ytz.product.mbg.model.PmsBrand;
+import com.ytz.mall.mbg.model.PmsBrand;
 
 import java.util.List;
 

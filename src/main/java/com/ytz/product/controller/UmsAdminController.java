@@ -12,8 +12,8 @@ package com.ytz.product.controller;
 
 import com.ytz.mall.common.api.CommonResult;
 import com.ytz.product.dto.UmsAdminLoginParam;
-import com.ytz.product.mbg.model.UmsAdmin;
-import com.ytz.product.mbg.model.UmsPermission;
+import com.ytz.mall.mbg.model.UmsAdmin;
+import com.ytz.mall.mbg.model.UmsPermission;
 import com.ytz.product.service.UmsAdminService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

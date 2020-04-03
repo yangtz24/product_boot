@@ -10,7 +10,7 @@
  */
 package com.ytz.product.dao;
 
-import com.ytz.product.mbg.model.UmsPermission;
+import com.ytz.mall.mbg.model.UmsPermission;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

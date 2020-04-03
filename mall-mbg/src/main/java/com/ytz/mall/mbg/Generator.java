@@ -1,14 +1,5 @@
-/**
- * Copyright © 2019 国网信通产业集团. All rights reserved.
- *
- * @Title:Generator.java
- * @Prject: com.ytz.product.mbg
- * @Package: com.ytz.product.mbg
- * @author: yangtianzeng
- * @date: 2020/3/16 8:59
- * @version: V1.0
- */
-package com.ytz.product.mbg;
+
+package com.ytz.mall.mbg;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;

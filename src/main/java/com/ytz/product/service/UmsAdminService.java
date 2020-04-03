@@ -10,8 +10,8 @@
  */
 package com.ytz.product.service;
 
-import com.ytz.product.mbg.model.UmsAdmin;
-import com.ytz.product.mbg.model.UmsPermission;
+import com.ytz.mall.mbg.model.UmsAdmin;
+import com.ytz.mall.mbg.model.UmsPermission;
 
 import java.util.List;
 

@@ -1,13 +1,4 @@
-/**
- * Copyright © 2019 国网信通产业集团. All rights reserved.
- *
- * @Title:EsProduct.java
- * @Prject: com.ytz.product.elasticsearch.document
- * @Package: com.ytz.product.elasticsearch.document
- * @author: yangtianzeng
- * @date: 2020/3/16 20:46
- * @version: V1.0
- */
+
 package com.ytz.product.elasticsearch.document;
 
 import lombok.Data;

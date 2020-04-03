@@ -12,8 +12,8 @@ package com.ytz.product.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.ytz.product.mbg.mapper.PmsBrandMapper;
-import com.ytz.product.mbg.model.PmsBrand;
-import com.ytz.product.mbg.model.PmsBrandExample;
+import com.ytz.mall.mbg.model.PmsBrand;
+import com.ytz.mall.mbg.model.PmsBrandExample;
 import com.ytz.product.service.PmsBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
