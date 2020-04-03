@@ -11,8 +11,8 @@
 package com.ytz.product.controller;
 
 import cn.hutool.core.util.ObjectUtil;
-import com.ytz.product.common.CommonPage;
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonPage;
+import com.ytz.mall.common.api.CommonResult;
 import com.ytz.product.elasticsearch.document.EsProduct;
 import com.ytz.product.service.EsProductService;
 import io.swagger.annotations.Api;

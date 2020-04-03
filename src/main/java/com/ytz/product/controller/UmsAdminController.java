@@ -10,7 +10,7 @@
  */
 package com.ytz.product.controller;
 
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonResult;
 import com.ytz.product.dto.UmsAdminLoginParam;
 import com.ytz.product.mbg.model.UmsAdmin;
 import com.ytz.product.mbg.model.UmsPermission;

@@ -10,7 +10,7 @@
  */
 package com.ytz.product.controller;
 
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonResult;
 import com.ytz.product.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

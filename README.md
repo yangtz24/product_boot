@@ -1,2 +1,2 @@
 # product_boot
-商品管理(SpringBoot)
+电商系统--学习使用(SpringBoot+Mybatis)

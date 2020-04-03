@@ -10,7 +10,7 @@
  */
 package com.ytz.product.service;
 
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonResult;
 
 /**
  * @ClassName: UmsMemberService

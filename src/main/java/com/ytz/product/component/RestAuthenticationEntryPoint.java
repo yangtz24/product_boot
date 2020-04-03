@@ -11,7 +11,7 @@
 package com.ytz.product.component;
 
 import cn.hutool.json.JSONUtil;
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonResult;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;

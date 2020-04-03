@@ -10,7 +10,7 @@
  */
 package com.ytz.product.service.impl;
 
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonResult;
 import com.ytz.product.service.RedisService;
 import com.ytz.product.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;

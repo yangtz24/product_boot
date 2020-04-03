@@ -8,7 +8,7 @@
  * @date: 2020/3/16 8:53
  * @version: V1.0
  */
-package com.ytz.product.common;
+package com.ytz.mall.common.api;
 
 import com.github.pagehelper.PageInfo;
 
@@ -30,8 +30,8 @@ public class CommonPage<T> {
     /**
      * 将PageHelper分页后的list转为分页信息
      */
-    public static <T> com.ytz.mall.common.api.CommonPage<T> restPage(List<T> list) {
-        com.ytz.mall.common.api.CommonPage<T> result = new com.ytz.mall.common.api.CommonPage<T>();
+    public static <T> CommonPage<T> restPage(List<T> list) {
+        CommonPage<T> result = new CommonPage<T>();
         PageInfo<T> pageInfo = new PageInfo<T>(list);
         result.setTotalPage(pageInfo.getPages());
         result.setPageNum(pageInfo.getPageNum());

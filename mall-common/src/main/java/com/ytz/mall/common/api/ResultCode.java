@@ -8,9 +8,7 @@
  * @date: 2020/3/16 8:55
  * @version: V1.0
  */
-package com.ytz.product.common;
-
-import com.ytz.mall.common.api.IErrorCode;
+package com.ytz.mall.common.api;
 
 /**
  * @ClassName: ResultCode

@@ -1,6 +1,6 @@
 package com.ytz.product.rabbitmq;
 
-import com.ytz.product.common.CommonResult;
+import com.ytz.mall.common.api.CommonResult;
 import com.ytz.product.dto.OrderParam;
 
 /**
